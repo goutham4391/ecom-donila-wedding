@@ -1,0 +1,442 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-expand-lg .navbar-collapse {
+        top: -40px;
+    }
+    .custom_menu li {
+        font-size: 14px;
+    }
+    .custom_menu {
+        padding-left: 20px;
+    }
+    .social_icon {
+        display: none;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+    }
+    #main_slider a.carousel-control-prev {
+        left: 90%;
+        top: 80%;
+    }
+    .about_text {
+        width: 87%;
+    }
+    .gallery_text {
+        width: 65%;
+    }
+    .story_taital_main {
+        padding-left: 15px;
+    }
+    .story_img {
+        height: 570px;
+    }
+    #custom_slider a.carousel-control-next {
+        display: none;
+    }
+    #custom_slider a.carousel-control-prev {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .header_section {
+        background-size: 100% 100%;
+    }
+    .bg-light {
+        background-color: #fff !important;
+    }
+    .navbar {
+        padding: 0px 20px 0px 0px;
+    }
+    .navbar-nav {
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        top: 0px;
+        position: initial;
+    }
+    .banner_section_left {
+        width: 1%;
+        display: none;
+    }
+    .banner_section_right {
+        width: 100%;
+        padding-left: 140px;
+    }
+    .banner_taital {
+        font-size: 50px;
+    }
+    .banner_section {
+        padding: 50px 0px;
+    }
+    .about_text {
+        width: 100%;
+        font-size: 16px;
+    }
+    .some_text {
+        font-size: 12px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallery_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .story_taital_main {
+        padding-left: 0px;
+    }
+    .story_text {
+        font-size: 14px;
+    }
+    .story_img {
+        padding-top: 0px;
+        height: 630px;
+    }
+    .contact_taital {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .champage_img {
+        padding-top: 50px;
+    }
+    .enjoy_text {
+        top: 45%;
+    }
+    .customer_text {
+        width: 90%;
+        font-size: 14px;
+    }
+    #custom_slider a.carousel-control-next {
+        display: none;
+    }
+    #custom_slider a.carousel-control-prev {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .bg-light {
+        background-color: #fff !important;
+    }
+    .navbar {
+        padding: 0px 20px 0px 0px;
+    }
+    .navbar-nav {
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        top: 0px;
+        position: initial;
+    }
+    .banner_section_left {
+        width: 1%;
+        display: none;
+    }
+    .banner_section_right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .banner_taital {
+        font-size: 50px;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+    }
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .gallery_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .story_taital_main {
+        padding-left: 0px;
+    }
+    .story_text {
+        font-size: 14px;
+    }
+    .story_img {
+        padding-top: 30px;
+    }
+    .contact_taital {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .champage_img {
+        padding-top: 50px;
+    }
+    .enjoy_text {
+        top: 70%;
+    }
+    .about_taital {
+        font-size: 28px;
+    }
+    .customer_text {
+        width: 90%;
+        font-size: 14px;
+    }
+    #custom_slider a.carousel-control-next {
+        display: none;
+    }
+    #custom_slider a.carousel-control-prev {
+        display: none;
+    }
+    .contact_main li {
+        padding: 30px 5px 30px 5px;
+    }
+    .client_img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .bg-light {
+        background-color: #fff !important;
+    }
+    .navbar {
+        padding: 0px 20px 0px 0px;
+    }
+    .navbar-nav {
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        top: 0px;
+        position: initial;
+    }
+    .banner_section_left {
+        width: 1%;
+        display: none;
+    }
+    .banner_section_right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .banner_taital {
+        font-size: 50px;
+    }
+    .banner_section {
+        padding: 50px 0px;
+    }
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .gallery_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .story_taital_main {
+        padding-left: 0px;
+    }
+    .story_text {
+        font-size: 14px;
+    }
+    .story_img {
+        padding-top: 30px;
+    }
+    .contact_taital {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .champage_img {
+        padding-top: 50px;
+    }
+    .enjoy_text {
+        top: 70%;
+    }
+    .client_img {
+        margin-top: 20px;
+    }
+    .about_taital {
+        font-size: 28px;
+    }
+    .customer_text {
+        width: 90%;
+        font-size: 14px;
+    }
+    #custom_slider a.carousel-control-next {
+        display: none;
+    }
+    #custom_slider a.carousel-control-prev {
+        display: none;
+    }
+    .contact_main li {
+        float: initial;
+        padding: 4px;
+    }
+}
